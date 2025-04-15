@@ -75,7 +75,7 @@ public class Main {
 		System.out.println("Maximum flow PreFlow = " + pf.maxFlow()); //60
 		System.out.println("Maximum flow Dinic = " + di.dinic(0, 4)); //60	
 		System.out.println("Maximum flow FordFulkerson = " + ff.networkFlow(1, 5)); //60
-		//System.out.println(ff.networkFlow(1, 5)); //60
+		//    System.out.println(ff.networkFlow(1, 5)); //60
 		
 		graph.init(8);
 		
